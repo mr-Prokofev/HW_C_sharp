@@ -2,9 +2,9 @@
 int numA = Convert.ToInt32(Console.ReadLine());
 if (numA % 2 == 1)
 {
-    Console.WriteLine($"{numA} - нечетное");
+    Console.WriteLine($"{numA} - нет");
 }
 else
     {
-        Console.WriteLine($"{numA} - четное");
+        Console.WriteLine($"{numA} - да");
     }
