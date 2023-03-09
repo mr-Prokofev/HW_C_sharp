@@ -2,12 +2,12 @@
 int numA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число В:");
 int numB = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Максимальное");
+Console.Write("Максимальное: ");
 if (numA > numB)
     {
-        Console.WriteLine(numA);
+        Console.Write(numA);
     }
 else
 {
-    Console.WriteLine(numB);
+    Console.Write(numB);
 }
