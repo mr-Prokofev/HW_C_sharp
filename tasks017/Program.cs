@@ -13,6 +13,7 @@ int Coordinate(int x, int y)
     return 0;
 }
 
+
 Console.WriteLine($"Четверь: {Coordinate(X1,Y1)}");
 
 
