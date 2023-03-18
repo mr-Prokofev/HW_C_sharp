@@ -3,11 +3,11 @@ int[] array = new int[8];
 
 int [] arrayZap(int [] x)
 {
-     int temp = 0;
+    Random random = new Random();
+     
      for (int i = 0; i<x.Length; i++)
      {
-         temp = new Random().Next(0,2);
-         x[i] = temp;
+        x[i] = random.Next(0,2);
     }
      return x;
 }
