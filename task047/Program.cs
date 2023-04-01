@@ -1,4 +1,5 @@
-﻿Console.Clear();
+﻿//Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
+Console.Clear();
 
 double[,] CreateMatrixDouble(int rows, int colums, int min, int max) //заполнение случайными вещественными числами
 {
