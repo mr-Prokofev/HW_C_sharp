@@ -29,15 +29,15 @@ void printMatrix(int[,] matrix)
 }
 double[] AverageColumns(int[,] matrix) // обход по столбцам
 {double[] arrayResult = new double[matrix.GetLength(1)];
-double count = 0;
+double sum = 0;
     for (int j = 0; j < matrix.GetLength(1); j++)
     {
         for (int i = 0; i < matrix.GetLength(0); i++)
         {
-           count+=matrix[i,j]; 
+           sum+=matrix[i,j]; 
         }
-        arrayResult[j] = count/matrix.GetLength(0);
-        count = 0;
+        arrayResult[j] = sum/matrix.GetLength(0);
+        sum = 0;
     }
     return arrayResult;
 }
